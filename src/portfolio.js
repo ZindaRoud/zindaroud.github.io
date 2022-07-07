@@ -10,7 +10,7 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Salam", //👋.
-  title2: "Hassmaom",
+  title2: "Hassnain",
   logo_name: "hassnain()",
   nickname: "harry / picleric",
   full_name: "Muhammad Hassnain",

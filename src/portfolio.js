@@ -4,7 +4,7 @@
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  googleTrackingID: "G-61N8F5ZKMV ",
 };
 
 //Home Page
@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "I am intersted in Computer Networks and Machine Learning. I believe in seeking knowledge for the sake of knowledge.",
   resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
+    "https://drive.google.com/file/d/1sloYRIeprkURcFZzhVY7amuRPOFkvEVm/view?usp=sharing",
   mail: "m.hassnain.gee@gmail.com",
 };
 
@@ -511,13 +511,13 @@ const contactPageData = {
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
-  // blogSection: {
-  //   title: "Blogs",
-  //   subtitle:
-  //     "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-  //   link: "https://twitter.com/Harikrushn9",
-  //   avatar_image_path: "blogs_image.svg",
-  // },
+  blogSection: {
+    // title: "Blogs",
+    // subtitle:
+    //   "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
+    // link: "https://twitter.com/Harikrushn9",
+    // avatar_image_path: "blogs_image.svg",
+  },
 };
 
 const projects = {

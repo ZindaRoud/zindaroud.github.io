@@ -16,7 +16,6 @@ function App() {
     //   });
     //   ReactGA.pageview(window.location.pathname + window.location.search);
     // }
-   
   }, []);
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");

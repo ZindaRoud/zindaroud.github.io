@@ -42,7 +42,7 @@ const skills = {
         "⚡ Building responsive website front end using ReactJS",
         "⚡ Developing mobile applications using Flutter and Android",
         "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
       ],
       softwareSkills: [
         {
@@ -284,84 +284,83 @@ const degrees = {
 
 const certifications = {
   certifications: [
-  //   {
-  //     title: "M0001: MongoDB Basics",
-  //     subtitle: "MongoDB University",
-  //     logo_path: "mongo.png",
-  //     certificate_link:
-  //       "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-  //     alt_name: "MongoDB University",
-  //     // color_code: "#2AAFED",
-  //     color_code: "#47A048",
-  //   },
-  //   {
-  //     title: "Hackathon",
-  //     subtitle: "Hack The Mountains",
-  //     logo_path: "hackathon1.svg",
-  //     certificate_link:
-  //       "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-  //     alt_name: "hackathon",
-  //     color_code: "#E2405F",
-  //   },
-  //   {
-  //     title: "A300: Atlas Security",
-  //     subtitle: "MongoDB University",
-  //     logo_path: "mongo.png",
-  //     certificate_link:
-  //       "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-  //     alt_name: "MongoDB University",
-  //     // color_code: "#F6B808",
-  //     color_code: "#47A048",
-  //   },
-  //   {
-  //     title: "Cyber Security & Cyber Forensics",
-  //     subtitle: "Workshop at IIT Bombay",
-  //     logo_path: "iit.png",
-  //     certificate_link:
-  //       "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-  //     alt_name: "Workshop",
-  //     color_code: "#2AAFED",
-  //   },
-  //   {
-  //     title: "MLH Local Hack Day: Build",
-  //     subtitle: "Major League Hacking",
-  //     logo_path: "mlh-logo.svg",
-  //     certificate_link:
-  //       "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-  //     alt_name: "Google",
-  //     color_code: "#fe0037",
-  //   },
-  //   {
-  //     title: "Hack20",
-  //     subtitle: "Flutter International Hackathon",
-  //     logo_path: "flutter.png",
-  //     certificate_link:
-  //       "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-  //     alt_name: "Flutter International Hackathon",
-  //     color_code: "#2AAFED",
-  //   },
-  //   {
-  //     title: "Postman Student Expert",
-  //     subtitle: "Postman",
-  //     logo_path: "postman.png",
-  //     certificate_link:
-  //       "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-  //     alt_name: "Postman",
-  //     // color_code: "#f36c3d",
-  //     color_code: "#fffbf3",
-  //   },
-  //   // color_code: "#8C151599",
-  //   // color_code: "#7A7A7A",
-  //   // color_code: "#0C9D5899",
-  //   // color_code: "#C5E2EE",
-  //   // color_code: "#ffc475",
-  //   // color_code: "#g",
-  //   // color_code: "#ffbfae",
-  //   // color_code: "#fffbf3",
-  //   // color_code: "#b190b0",
+    //   {
+    //     title: "M0001: MongoDB Basics",
+    //     subtitle: "MongoDB University",
+    //     logo_path: "mongo.png",
+    //     certificate_link:
+    //       "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
+    //     alt_name: "MongoDB University",
+    //     // color_code: "#2AAFED",
+    //     color_code: "#47A048",
+    //   },
+    //   {
+    //     title: "Hackathon",
+    //     subtitle: "Hack The Mountains",
+    //     logo_path: "hackathon1.svg",
+    //     certificate_link:
+    //       "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
+    //     alt_name: "hackathon",
+    //     color_code: "#E2405F",
+    //   },
+    //   {
+    //     title: "A300: Atlas Security",
+    //     subtitle: "MongoDB University",
+    //     logo_path: "mongo.png",
+    //     certificate_link:
+    //       "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+    //     alt_name: "MongoDB University",
+    //     // color_code: "#F6B808",
+    //     color_code: "#47A048",
+    //   },
+    //   {
+    //     title: "Cyber Security & Cyber Forensics",
+    //     subtitle: "Workshop at IIT Bombay",
+    //     logo_path: "iit.png",
+    //     certificate_link:
+    //       "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
+    //     alt_name: "Workshop",
+    //     color_code: "#2AAFED",
+    //   },
+    //   {
+    //     title: "MLH Local Hack Day: Build",
+    //     subtitle: "Major League Hacking",
+    //     logo_path: "mlh-logo.svg",
+    //     certificate_link:
+    //       "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
+    //     alt_name: "Google",
+    //     color_code: "#fe0037",
+    //   },
+    //   {
+    //     title: "Hack20",
+    //     subtitle: "Flutter International Hackathon",
+    //     logo_path: "flutter.png",
+    //     certificate_link:
+    //       "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
+    //     alt_name: "Flutter International Hackathon",
+    //     color_code: "#2AAFED",
+    //   },
+    //   {
+    //     title: "Postman Student Expert",
+    //     subtitle: "Postman",
+    //     logo_path: "postman.png",
+    //     certificate_link:
+    //       "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
+    //     alt_name: "Postman",
+    //     // color_code: "#f36c3d",
+    //     color_code: "#fffbf3",
+    //   },
+    //   // color_code: "#8C151599",
+    //   // color_code: "#7A7A7A",
+    //   // color_code: "#0C9D5899",
+    //   // color_code: "#C5E2EE",
+    //   // color_code: "#ffc475",
+    //   // color_code: "#g",
+    //   // color_code: "#ffbfae",
+    //   // color_code: "#fffbf3",
+    //   // color_code: "#b190b0",
   ],
 };
-
 
 const experience = {
   title: "Experience",
@@ -391,21 +390,20 @@ const experience = {
           logo_path: "lums.png",
           duration: "Jan 2022 - April 2022",
           location: "LUMS",
-          description:
-          `Teaching Assistant for Introduction to Computatioal Problem Solving. I was responsible for assissting the instructor in developing a problem solving attittude to a class of 100 studnets. I guided students on how to solve problems using basic C++ by confucting weekly tutorials.`,
-            // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          description: `Teaching Assistant for Introduction to Computatioal Problem Solving. I was responsible for assissting the instructor in developing a problem solving attittude to a class of 100 studnets. I guided students on how to solve problems using basic C++ by confucting weekly tutorials.`,
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
-            title: "Research Intern",
-            company: "Center for Speech and Language Processing",
-            company_url: "https://www.c-salt.org/",
-            logo_path: "CSALT.png",
-            duration: "Dec 2022 - May 2022",
-            location: "LUMS",
-            description:
-              "I worked on creating a keyword spotting system for Urdu Language. I created a baseline model that was able to identify words with upto 90% accuracy. I also worked on the creation of the largest emotionally tagged dataset for the urdu language. We were using the recordins of Baang a voice-based social media platform.",
-            color: "#4285F4",
+          title: "Research Intern",
+          company: "Center for Speech and Language Processing",
+          company_url: "https://www.c-salt.org/",
+          logo_path: "CSALT.png",
+          duration: "Dec 2022 - May 2022",
+          location: "LUMS",
+          description:
+            "I worked on creating a keyword spotting system for Urdu Language. I created a baseline model that was able to identify words with upto 90% accuracy. I also worked on the creation of the largest emotionally tagged dataset for the urdu language. We were using the recordins of Baang a voice-based social media platform.",
+          color: "#4285F4",
         },
         {
           title: "Teaching Assisstant (half-time)",
@@ -414,11 +412,10 @@ const experience = {
           logo_path: "lums.png",
           duration: "Sep 2021 - Dec 2021",
           location: "LUMS",
-          description:
-          `Teaching Assistant for Introduction to Computational Problem Solving. I was responsible for assissting the instructor in during the labs. I made and graded the weekly labs designed to test the understanding of the concepts they were learning during the lecture.`,
-            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          description: `Teaching Assistant for Introduction to Computational Problem Solving. I was responsible for assissting the instructor in during the labs. I made and graded the weekly labs designed to test the understanding of the concepts they were learning during the lecture.`,
+          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#4285F4",
-        }
+        },
       ],
     },
     // {
@@ -499,7 +496,7 @@ const projectsHeader = {
   title: "Projects",
   description:
     "My projects make use of a vast variety of latest technology tools. I have worked on mobile and web app development, while I have also worked on My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
-    description: "Below are my projects with their github links",
+  description: "Below are my projects with their github links",
   avatar_image_path: "projects_image.svg",
 };
 

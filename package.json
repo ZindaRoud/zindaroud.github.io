@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "personalPortfolio",
+  "homepage": "http://ZindaRoud.github.io/PortfolioV2",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",

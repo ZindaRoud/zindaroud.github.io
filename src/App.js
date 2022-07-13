@@ -10,12 +10,10 @@ import ReactGA from "react-ga";
 
 function App() {
   useEffect(() => {
-    // if (settings.googleTrackingID) {
-    //   ReactGA.initialize(settings.googleTrackingID, {
-    //     testMode: process.env.NODE_ENV === "test",
-    //   });
-    //   ReactGA.pageview(window.location.pathname + window.location.search);
-    // }
+      ReactGA.initialize("G-61N8F5ZKMV", {
+        testMode: process.env.NODE_ENV === "test",
+      });
+      ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");

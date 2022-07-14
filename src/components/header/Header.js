@@ -6,7 +6,9 @@ import { greeting, settings } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
+// import useGAEventsTracker from "../../../../useGAEventsTracker";
 
+// const useGAEventsTracker = useGAEventsTracker("Clicks");
 function Header(props) {
   const theme = props.theme;
 

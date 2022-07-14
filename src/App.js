@@ -6,8 +6,8 @@ import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
-import ReactGA from "react-ga";
 import { Tracking } from "./tracking";
+import { withRouter } from "react-router-dom";
 
 function App() {
   Tracking();

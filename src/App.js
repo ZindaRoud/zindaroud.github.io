@@ -7,15 +7,10 @@ import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
 import ReactGA from "react-ga";
+import { Tracking } from "./tracking";
 
 function App() {
-  useEffect(() => {
-      ReactGA.initialize("G-61N8F5ZKMV", {
-        testMode: process.env.NODE_ENV === "test",
-      });
-      ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
+  Tracking();
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
   const useCursor = settings.useCustomCursor;
 

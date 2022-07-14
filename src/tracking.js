@@ -1,24 +1,13 @@
-// import React from "react";
+import ReactGA from "react-ga";
+import React, { useState, useEffect } from "react";
 
-// const Tracking = () => {
-//   return (
-//     <div>
-//       <script
-//         async
-//         src="https://www.googletagmanager.com/gtag/js?id=G-61N8F5ZKMV"
-//       ></script>
-//       <script>
-//         {() => {
-//           window.dataLayer = window.dataLayer || [];
-//           function gtag() {
-//             dataLayer.push(arguments);
-//           }
-//           gtag("js", new Date());
-//           gtag("config", "G-61N8F5ZKMV");
-//         }}
-//       </script>
-//     </div>
-//   );
-// };
+function Tracking() {
+  useEffect(() => {
+    ReactGA.initialize("UA-233746466-1", {
+      testMode: process.env.NODE_ENV === "test",
+    });
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+}
 
-// ReactDOM.render(<Tracking />, document.querySelector("#tracking"));
+export { Tracking };
